@@ -4,14 +4,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Programma {
-
-//	public static void main(String[] args) {
-//		int reizes;
-//		Scanner scan = new Scanner(System.in);
-//		System.out.println("Cik reizes mest kaulinu?");
-//		reizes = scan.nextInt();
-//		mestKaulinu(reizes);
-//		scan.close();
 		
 	static void mestKaulinu(int reizes) {
 		int skaitlis;
@@ -23,6 +15,7 @@ public class Programma {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("Esi sveicināts manā metamā kauliņa programma!");
 		int reizes;
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Cik reizes mest kaulinu?");
